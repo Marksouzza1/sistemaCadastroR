@@ -7,7 +7,7 @@ import java.sql.SQLDataException;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
-    private static final String URL="jdbc:mysql://localhost:3306/cadaluno";
+    private static final String URL="jdbc:mysql://localhost:3306/mca";
 
     private static final String USER = "root";
     private static final String PASSWORD = "root99";
@@ -26,11 +26,18 @@ public class ConnectionFactory {
                 System.out.println("Conexão estabelecida");
             }
         } catch (SQLException e){
-            JOptionPane.showMessageDialog(null,"Erro na conexão");
+            JOptionPane.showMessageDialog(null,
+                    "Erro na conexão: " + e.getMessage(),
+                    "Erro 46", JOptionPane.ERROR_MESSAGE);
 
         }
 
 
         return conexao;
+    }
+
+    public static void main(String[] args) {
+        ConnectionFactory conect = new ConnectionFactory();
+        getConexao();
     }
 }
