@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TelaInicio {
+public class SystemView extends JFrame {
     private JPanel telaInicio;
     private JMenuBar menuBar;
     private JMenu menu1;
@@ -12,16 +12,30 @@ public class TelaInicio {
     private JMenu menu3;
     private JButton clientesButton;
 
-    public TelaInicio() {
+    public SystemView() {
+        createUIComponents();
+    }
+
+    private void listeners(){
         clientesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
 
             }
         });
     }
 
     private void createUIComponents() {
-        // TODO: place custom component creation code here
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setTitle("Sistema");
+        setSize(800, 800);
+        setVisible(true);
+        setContentPane(telaInicio);
+
+    }
+
+    public static void main(String[] args) {
+        SystemView sys =new SystemView();
     }
 }

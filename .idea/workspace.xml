@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c785ed60-b18f-45fd-965d-65367f63db01" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/src/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/LoginView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/telaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/telaCliente.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicio.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SystemView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SystemView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
