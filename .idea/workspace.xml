@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c785ed60-b18f-45fd-965d-65367f63db01" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/src/view/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search-interface-symbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaInicio.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SystemView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/user-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicio.form" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/TelaInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SystemView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/telaCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ClientView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/telaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ClientView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/telaPesquisa.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/searchView.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/telaPesquisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/searchView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684187277067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="up">
+      <created>1684190157998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684190157998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

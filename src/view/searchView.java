@@ -2,7 +2,7 @@ package view;
 
 import javax.swing.*;
 
-public class telaPesquisa {
+public class searchView {
     private JTextField textField1;
     private JButton pesquisaButton;
     private JButton limparButton;

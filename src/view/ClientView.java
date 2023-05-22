@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 
-public class telaCliente extends JFrame {
+public class ClientView extends JFrame {
     private JButton excluirButton;
     private JButton editarButton;
     private JButton sairButton;
@@ -21,9 +21,9 @@ public class telaCliente extends JFrame {
     private JButton gravarButton;
     private JButton cancelarButton;
 
-    public telaCliente() {
+    public ClientView() {
     addListener();
-    iniciarComponentes();
+
 
 }
 
@@ -51,6 +51,6 @@ public class telaCliente extends JFrame {
 }
 
     public static void main(String[] args) {
-        view.telaCliente tela = new telaCliente();
+        ClientView tela = new ClientView();
     }
 }
